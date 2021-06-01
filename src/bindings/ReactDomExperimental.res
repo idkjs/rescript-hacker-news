@@ -12,7 +12,7 @@ let createRootWithId = id =>
   | None => None
   | Some(element) => Some(createRoot(element))
   }
-
+  
 @bs.module("react-dom")
 external createBlockingRoot: Dom.element => root = "unstable_createBlockingRoot"
 
