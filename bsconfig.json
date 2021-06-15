@@ -1,13 +1,13 @@
 
 {
-  "name": "rescript-melange-hacker-news",
+  "name": "reasonable-react-hacker-news",
   "package-specs": ["commonjs", "es6"],
   "suffix": ".bs.js",
   "reason": {
     "react-jsx": 3
   },
   "bs-dependencies": [
-    "reason-react",
+    "@reasonable/react",
     "bs-fetch",
     "@glennsl/bs-json",
     "bs-webapi"

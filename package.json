@@ -26,7 +26,7 @@
     "bs-webapi": "*",
     "react": "^0.0.0-experimental-5027eb465",
     "react-dom": "^0.0.0-experimental-5027eb465",
-    "reason-react": "https://github.com/ReasonableML/reason-react.git"
+    "@reasonable/react": "https://github.com/ReasonableML/reason-react.git"
   },
   "devDependencies": {
     "compression-webpack-plugin": "^3.0.0",
