@@ -7,7 +7,7 @@
     "react-jsx": 3
   },
   "bs-dependencies": [
-    "@rescript/react",
+    "reason-react",
     "bs-fetch",
     "@glennsl/bs-json",
     "bs-webapi"

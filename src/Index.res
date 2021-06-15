@@ -1,17 +1,12 @@
 open ReactDomExperimental
 
 open Utils
-registerServiceWorker();
+registerServiceWorker()
 requireCSS("src/Index.css")
 
-
 switch createRootWithId("root") {
-| Some(root) => root->render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-
-  )
-  RescriptReactRouter.push("");
+| Some(root) =>
+  root->render(<React.StrictMode> <App /> </React.StrictMode>)
+  ReasonReactRouter.push("")
 | None => ()
 }
